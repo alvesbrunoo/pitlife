@@ -118,6 +118,10 @@ h1, h2 {
     position: relative;
 }
 
+.fundo-verde {
+    background-color: green;
+}
+
 .duvida > h3 {
     border: 2px solid #ff9a6c;
     border-radius: 8px;
