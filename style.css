@@ -141,6 +141,16 @@ h1, h2 {
     border-right: 1px solid #ff9a6c;
     border-left: #ff9a6c;
     margin-top: -8px;
+    padding: 0 24px;
+    height: 0; 
+    overflow: hidden;
+    opacity: 0;
+    transition: .2s;
+}
+
+.duvida.ativa .paragrafo {
+    height: fit-content;
+    opacity: 1;
     padding: 24px;
 }
 
